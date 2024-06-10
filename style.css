@@ -1,0 +1,63 @@
+body {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./imagens/fundoamarelo.jpg);
+    
+}
+
+.container {
+    background-image: url(./imagens/d2e20e693c8a333b687be3c5030ff48c.jpeg);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #008000; /* Verde do Bob Esponja */
+    margin-bottom: 10px;
+    
+    
+}
+
+p {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #008000; /* Verde do Bob Esponja */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(213, 216, 9, 0.726);
+    
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff0000; /* Vermelho da "Oh não!" */
+}
